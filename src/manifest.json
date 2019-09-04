@@ -1,0 +1,29 @@
+{
+  "name": "Chrome Extension",
+  "version": "0.0.0",
+  "manifest_version": 2,
+  "description": "Chrome Extension",
+  "browser_action": {
+    "defualt_title": "Chrome Extension",
+    "default_popup": "popup/index.html"
+  },
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ],
+    "persistent": true
+  },
+  "permissions": [
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/*"
+      ],
+      "js": [
+        "js/content.js"
+      ]
+    }
+  ]
+}

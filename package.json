@@ -1,0 +1,49 @@
+{
+  "name": "chrome-extension-template",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "author": "winky (https://github.com/winky)",
+  "license": "MIT",
+  "repository": "winky/chrome-extension-template.git",
+  "scripts": {
+    "build": "webpack --config webpack.prod.ts",
+    "watch": "webpack -w --config webpack.dev.ts",
+    "clean": "rm -rf dist",
+    "lint": "eslint '{src,__tests__}/**/**.{ts,tsx,json,js,jsx}' --cache"
+  },
+  "description": "Chrome extension Template",
+  "bugs": {
+    "url": "https://github.com/winky/chrome-extension-template/issues"
+  },
+  "homepage": "https://github.com/winky/chrome-extension-template#readme",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.88",
+    "@types/copy-webpack-plugin": "^5.0.0",
+    "@types/node": "^12.7.4",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "@types/webpack": "^4.39.1",
+    "@types/webpack-merge": "^4.1.5",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^1.0.1",
+    "eslint": "^6.3.0",
+    "fibers": "^4.0.1",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.18.2",
+    "sass": "^1.22.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.1.6",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-merge": "^4.2.2"
+  }
+}
