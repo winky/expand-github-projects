@@ -1,10 +1,10 @@
 {
-  "name": "Chrome Extension",
+  "name": "Expand Github Project",
   "version": "0.0.0",
   "manifest_version": 2,
-  "description": "Chrome Extension",
+  "description": "Expand for Github Project",
   "browser_action": {
-    "defualt_title": "Chrome Extension",
+    "defualt_title": "Expand Github Project",
     "default_popup": "popup/index.html"
   },
   "background": {

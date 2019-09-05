@@ -1,10 +1,10 @@
 {
-  "name": "chrome-extension-template",
+  "name": "expand-github-projects",
   "version": "0.0.0",
   "main": "./dist/index.js",
   "author": "winky (https://github.com/winky)",
   "license": "MIT",
-  "repository": "winky/chrome-extension-template.git",
+  "repository": "winky/expand-github-projects.git",
   "scripts": {
     "build": "webpack --config webpack.prod.ts",
     "watch": "webpack -w --config webpack.dev.ts",
@@ -13,9 +13,9 @@
   },
   "description": "Chrome extension Template",
   "bugs": {
-    "url": "https://github.com/winky/chrome-extension-template/issues"
+    "url": "https://github.com/winky/expand-github-projects/issues"
   },
-  "homepage": "https://github.com/winky/chrome-extension-template#readme",
+  "homepage": "https://github.com/winky/expand-github-projects#readme",
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
